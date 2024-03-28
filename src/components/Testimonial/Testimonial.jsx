@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import slideSettings from "../../utils/sliderSettings";
+import slideSettings from "../../utils/slideSettings";
 import TestimonialData from "../../utils/testimonialsData";
 
 const Testimonials = () => {

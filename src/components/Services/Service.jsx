@@ -1,3 +1,4 @@
+import React from "react";
 import ServicesData from "../../utils/serviceData";
 import CoffeIMG from "../../assets/coffee2.png";
 const Services = () => {

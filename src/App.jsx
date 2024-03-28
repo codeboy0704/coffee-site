@@ -5,21 +5,19 @@ import Hero from './components/Hero/Hero';
 import Service from './components/Services/Service';
 import Banner from './components/Banner/Banner';
 import AppStore from './components/AppStore/AppStore';
-import Testimonial from './components/Testimonial/Testimonial';
+import Testimonials from './components/Testimonial/Testimonial';
 import Footer from './components/Footer/Footer';
+import "aos/dist/aos.css";
 
 function App() {
-  const setAos = () => {
+
+  useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 700,
       easing: "ease-in",
       delay: 200,
     });
-  }
-
-  useEffect(() => {
-    setAos()
     AOS.refresh();
   }, []);
 
@@ -30,7 +28,7 @@ function App() {
       <Service />
       <Banner />
       <AppStore />
-      <Testimonial />
+      <Testimonials />
       <Footer />
     </div>
   )
