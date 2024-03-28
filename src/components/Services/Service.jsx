@@ -1,4 +1,4 @@
-import ServicesData from "../../utils/servicesData";
+import ServicesData from "../../utils/serviceData";
 import CoffeIMG from "../../assets/coffee2.png";
 const Services = () => {
   return (

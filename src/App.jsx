@@ -1,6 +1,8 @@
-import { useState, useEffect } from 'react'
+import {useEffect } from 'react'
 import AOS from "aos";
-import './App.css'
+import Navbar from './components/NavBar/NavBar';
+import Hero from './components/Hero/Hero';
+import Service from './components/Services/Service';
 
 function App() {
   const setAos = () => {
@@ -18,8 +20,10 @@ function App() {
   }, []);
 
   return(
-    <div>
-      
+    <div className="bg-white dark:bg-gray-900 dark:text-white duration-400 overflow-x-hidden">
+      <Navbar />
+      <Hero />
+      <Service />
     </div>
   )
 
