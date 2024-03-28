@@ -5,6 +5,8 @@ import Hero from './components/Hero/Hero';
 import Service from './components/Services/Service';
 import Banner from './components/Banner/Banner';
 import AppStore from './components/AppStore/AppStore';
+import Testimonial from './components/Testimonial/Testimonial';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const setAos = () => {
@@ -28,6 +30,8 @@ function App() {
       <Service />
       <Banner />
       <AppStore />
+      <Testimonial />
+      <Footer />
     </div>
   )
 
