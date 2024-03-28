@@ -3,6 +3,7 @@ import AOS from "aos";
 import Navbar from './components/NavBar/NavBar';
 import Hero from './components/Hero/Hero';
 import Service from './components/Services/Service';
+import Banner from './components/Banner/Banner';
 
 function App() {
   const setAos = () => {
@@ -24,6 +25,7 @@ function App() {
       <Navbar />
       <Hero />
       <Service />
+      <Banner />
     </div>
   )
 
